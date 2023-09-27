@@ -1,0 +1,6 @@
+![Positive Ratings Word Cloud-1](https://github.com/Dhruv1777/threads-sentiment-analysis/assets/92107361/6061388d-ed8e-4938-a4db-23e82539e835)
+![Platform-Wise Distribution of Ratings-1](https://github.com/Dhruv1777/threads-sentiment-analysis/assets/92107361/1e0302f6-3a27-4569-9264-f160007ca596)
+![Overall word cloud-1](https://github.com/Dhruv1777/threads-sentiment-analysis/assets/92107361/90d83311-ac9f-4e74-881e-670e0ff7ab8c)
+![Negative Reviews Word Cloud-1](https://github.com/Dhruv1777/threads-sentiment-analysis/assets/92107361/ffe9ca94-c713-4cf4-9c6d-1f14588097ea)
+![Absolute Sentiment Scores by Rating and Source-1](https://github.com/Dhruv1777/threads-sentiment-analysis/assets/92107361/3f0f4c3c-8f3a-4d87-a0d8-b5acae27c30f)
+![(Normalised by Count Method) Average Sentiment Scores by Rating and Source-1](https://github.com/Dhruv1777/threads-sentiment-analysis/assets/92107361/d0ae5677-91d8-4c97-a8f5-45a1408f6937)
