@@ -10,4 +10,56 @@ First off, I wanted to check the distribution of ratings (looking at this platfo
 
 The reviews do seem to be quite polarizing with '1' and '5' being the most frequent.
 
-We also have significantly more Google Play Store reviews than App Store reviews which could impact the overall analysis, but considering that the percentage of iPhone users in India is close to 5% (and the proportion of App Store reviews in the dataset is 8%), we can consider it a workable limitation.
+We have significantly more Google Play Store reviews than App Store reviews which could impact the overall analysis, so we will consider this one of our limitations going forward.
+
+### Sentiment Scores
+
+A great way to get an idea of how users feel about 'Threads' in their reviews is deriving a 'sentiment score' for them. The sentiment scores here come from _. Put very simply, obtaining these involves 'tokenising' the reviews (a process where _), followed by _, and then finished up by _
+
+![Absolute_Sentiment_Scores_by_Rating_and_Source-1.png](./images/Absolute_Sentiment_Scores_by_Rating_and_Source-1.png)
+
+While you can see viewing the sentiment scores by their numerical ratings as too obvious to reveal anything significant, it is interesting to note how a rating of '1' corresponds to a negative sentiment score for Play Store users, but remains positive (though close to 0) for App Store users.
+
+
+Of course, the difference between users of each of the two operating systems can result from the limited number of App Store reviews.
+To counteract this, we can try to get a clearer picture of how users feel about 'Threads' via an 'average' sentiment score. These averages are _ from _.
+
+![Average_Sentiment_Scores_by_Rating_and_Source](./images/(Normalised_by_Count_Method)_Average_Sentiment_Scores_by_Rating_and_Source_1.png)
+
+
+
+### Key Word Analysis
+
+Keyword analysis is a great way to expand our analysis beyond sentiment scores and numeric ratings. I have pulled up the most commonly used words appearing in the all of the reviews. of course, prior to this I have tried my best to remove any 'stop words' (words which don't _) through both _'s _ and a list I created myself manually after viewing the most commonly used words.
+
+The word cloud format is a great way to view the results, though I do find it overwhelming sometimes, and so a table of the top _ words could be a great supplement.
+
+![Overall_word_cloud-1.png](./images/Overall_word_cloud-1.png)
+
+
+
+
+
+
+##### Key Word Analysis for Positive Reviews (Reviews of rating _ and above)
+
+![Positive_Ratings_Word_Cloud-1.png](./images/Positive_Ratings_Word_Cloud-1.png)
+
+
+##### Key Word Analysis for Negative Reviews (Reviews of rating _ and below)
+
+![Negative_Reviews_Word_Cloud-1.png](./images/Negative_Reviews_Word_Cloud-1.png)
+
+
+
+
+### Predictive Models and Beyond
+
+
+
+
+
+
+
+
+
