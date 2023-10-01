@@ -36,23 +36,22 @@ Keyword analysis is a great way to expand our analysis beyond sentiment scores a
 
 The word cloud format is a great way to view the results, though I do find it overwhelming sometimes, so a table of the top words could be a great supplement.
 
-![Overall_Top_Words.jpg](./images/Overall_Top_Words.jpg)
-![Overall_word_cloud-1.png](./images/Overall_word_cloud-1.png)
 
+![Overall_word_cloud-1.png](./images/Overall_word_cloud-1.png)
+![Overall_Top_Words.jpg](./images/Overall_Top_Words.jpg)
 
 
 
 ##### Key Word Analysis for Positive Reviews (Reviews of rating 4 and above)
 
-![Positive_ratings_top_words.jpg](./images/Positive_ratings_top_words.jpg)
-![Positive_Ratings_Word_Cloud-1.png](./images/Positive_Ratings_Word_Cloud-1.png)
 
+![Positive_Ratings_Word_Cloud-1.png](./images/Positive_Ratings_Word_Cloud-1.png)
+![Positive_ratings_top_words.jpg](./images/Positive_ratings_top_words.jpg)
 
 ##### Key Word Analysis for Negative Reviews (Reviews of rating 2 and below)
 
-![Negative_ratings_top_words.jpg](./images/Negative_ratings_top_words.jpg)
 ![Negative_Reviews_Word_Cloud-1.png](./images/Negative_Reviews_Word_Cloud-1.png)
-
+![Negative_ratings_top_words.jpg](./images/Negative_ratings_top_words.jpg)
 
 
 
