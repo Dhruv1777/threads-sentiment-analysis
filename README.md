@@ -57,7 +57,18 @@ The word cloud format is a great way to view the results, though I do find it ov
 
 ### Predictive Models and Beyond
 
+We can use this data to create machine learning models for sentiment classification that can potentially be used to predict values on other such datasets of app reviews!
 
+After performing text vectorization, I can split my dataset into testing and training groups and run an ML algorithm. I am trying the Naive Bayes algorithm first.
+
+![First_ML_Model.jpg](./images/First_ML_Model.jpg)
+
+
+Evaluating the model's performance using the test set, I can see it performs alright. It has an accuracy of 62.42% which is better than the no information rate (baseline accuracy that could be achieved by always predicting the most frequent class) of 57.13% but this is not too much of an improvement. The p-value and kappa statistic also indicate the model does perform better than chance for certain.
+
+Class-wise (positive, neutral, and negative reviews) reveals that that model actually performs quite well for positive reviews, but not so much for negative and neutral reviews.
+
+There can be some ways for me to improve this:
 
 
 
