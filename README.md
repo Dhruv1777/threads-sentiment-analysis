@@ -32,24 +32,25 @@ To counteract this, we can try to get a clearer picture of how users feel about 
 
 ### Key Word Analysis
 
-Keyword analysis is a great way to expand our analysis beyond sentiment scores and numeric ratings. I have pulled up the most commonly used words appearing in the all of the reviews. of course, prior to this I have tried my best to remove any 'stop words' (words which don't _) through both _'s _ and a list I created myself manually after viewing the most commonly used words.
+Keyword analysis is a great way to expand our analysis beyond sentiment scores and numeric ratings. I have pulled up the most commonly used words appearing in all of the reviews. of course, prior to this, I have tried my best to remove any 'stop words' (words which don't _) through both _'s _ and a list I created myself manually after viewing the most commonly used words.
 
-The word cloud format is a great way to view the results, though I do find it overwhelming sometimes, and so a table of the top _ words could be a great supplement.
+The word cloud format is a great way to view the results, though I do find it overwhelming sometimes, so a table of the top words could be a great supplement.
 
+![Overall_Top_Words.jpg](./images/Overall_Top_Words.jpg)
 ![Overall_word_cloud-1.png](./images/Overall_word_cloud-1.png)
 
 
 
 
+##### Key Word Analysis for Positive Reviews (Reviews of rating 4 and above)
 
-
-##### Key Word Analysis for Positive Reviews (Reviews of rating _ and above)
-
+![Positive_ratings_top_words.jpg](./images/Positive_ratings_top_words.jpg)
 ![Positive_Ratings_Word_Cloud-1.png](./images/Positive_Ratings_Word_Cloud-1.png)
 
 
-##### Key Word Analysis for Negative Reviews (Reviews of rating _ and below)
+##### Key Word Analysis for Negative Reviews (Reviews of rating 2 and below)
 
+![Negative_ratings_top_words.jpg](./images/Negative_ratings_top_words.jpg)
 ![Negative_Reviews_Word_Cloud-1.png](./images/Negative_Reviews_Word_Cloud-1.png)
 
 
