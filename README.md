@@ -14,7 +14,7 @@ We have significantly more Google Play Store reviews than App Store reviews whic
 
 ### Sentiment Scores
 
-A great way to get an idea of how users feel about 'Threads' in their reviews is deriving a 'sentiment score' for them. The sentiment scores here come from _. Put very simply, obtaining these involves 'tokenising' the reviews (a process where _), followed by _, and then finished up by _
+A great way to get an idea of how users feel about 'Threads' in their reviews is deriving a 'sentiment score' for them. The sentiment scores here come from predefined lists of words (as part of packages in R) that are labeled as either positive or negative. 
 
 ![Absolute_Sentiment_Scores_by_Rating_and_Source-1.png](./images/Absolute_Sentiment_Scores_by_Rating_and_Source-1.png)
 ![Absolute_Sentiment_Scores_by_Source.png](./images/Absolute_Sentiment_Scores_by_Source.png)
@@ -24,7 +24,7 @@ While you can see viewing the sentiment scores by their numerical ratings as too
 
 
 Of course, the difference between users of each of the two operating systems can result from the limited number of App Store reviews.
-To counteract this, we can try to get a clearer picture of how users feel about 'Threads' via an 'average' sentiment score. These averages are _ from _.
+To counteract this, we can try to get a clearer picture of how users feel about 'Threads' via an 'average' sentiment score. These averages are derived from normalizing the sentiment score by the total number of reviews for each source
 
 ![Average_Sentiment_Scores_by_Rating_and_Source](./images/(Normalised_by_Count_Method)_Average_Sentiment_Scores_by_Rating_and_Source_1.png)
 ![Average_Sentiment_Scores_by_Source.png](./images/Average_Sentiment_Scores_by_Source.png)
@@ -32,7 +32,7 @@ To counteract this, we can try to get a clearer picture of how users feel about 
 
 ### Key Word Analysis
 
-Keyword analysis is a great way to expand our analysis beyond sentiment scores and numeric ratings. I have pulled up the most commonly used words appearing in all of the reviews. of course, prior to this, I have tried my best to remove any 'stop words' (words which don't _) through both _'s _ and a list I created myself manually after viewing the most commonly used words.
+Keyword analysis is a great way to expand our analysis beyond sentiment scores and numeric ratings. I have pulled up the most commonly used words appearing in all of the reviews. of course, prior to this, I have tried my best to remove any 'stop words' (common words such as "and", "the", etc., that do not carry significant meaning) through both in-built algorithms in R and a list I created myself manually after viewing the most commonly used words.
 
 The word cloud format is a great way to view the results, though I do find it overwhelming sometimes, so a table of the top words could be a great supplement.
 
@@ -69,10 +69,6 @@ Evaluating the model's performance using the test set, I can see it performs alr
 Class-wise (positive, neutral, and negative reviews) reveals that that model actually performs quite well for positive reviews, but not so much for negative and neutral reviews.
 
 There can be some ways for me to improve this:
-
-
-
-
 
 
 
