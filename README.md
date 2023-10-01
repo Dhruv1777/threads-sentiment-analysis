@@ -17,6 +17,8 @@ We have significantly more Google Play Store reviews than App Store reviews whic
 A great way to get an idea of how users feel about 'Threads' in their reviews is deriving a 'sentiment score' for them. The sentiment scores here come from _. Put very simply, obtaining these involves 'tokenising' the reviews (a process where _), followed by _, and then finished up by _
 
 ![Absolute_Sentiment_Scores_by_Rating_and_Source-1.png](./images/Absolute_Sentiment_Scores_by_Rating_and_Source-1.png)
+![Absolute_Sentiment_Scores_by_Source.png](./images/Absolute_Sentiment_Scores_by_Source.png)
+
 
 While you can see viewing the sentiment scores by their numerical ratings as too obvious to reveal anything significant, it is interesting to note how a rating of '1' corresponds to a negative sentiment score for Play Store users, but remains positive (though close to 0) for App Store users.
 
@@ -25,7 +27,7 @@ Of course, the difference between users of each of the two operating systems can
 To counteract this, we can try to get a clearer picture of how users feel about 'Threads' via an 'average' sentiment score. These averages are _ from _.
 
 ![Average_Sentiment_Scores_by_Rating_and_Source](./images/(Normalised_by_Count_Method)_Average_Sentiment_Scores_by_Rating_and_Source_1.png)
-
+![Average_Sentiment_Scores_by_Source.png](./images/Average_Sentiment_Scores_by_Source.png)
 
 
 ### Key Word Analysis
