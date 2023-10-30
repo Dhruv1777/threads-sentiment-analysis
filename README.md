@@ -68,7 +68,13 @@ Evaluating the model's performance using the test set, I can see it performs alr
 
 Class-wise (positive, neutral, and negative reviews) reveals that that model actually performs quite well for positive reviews, but not so much for negative and neutral reviews.
 
-There can be some ways for me to improve this:
+There can be some ways for me to improve this including using other models and further manual intervention to eliminate 'stop words' that could be influencing the models' bad performance for neutral and negative reviews, which I will continue to explore - so see here in the future for more updates!
+
+
+
+
+
+
 
 
 
