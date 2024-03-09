@@ -68,7 +68,7 @@ Key Word Analysis for Negative Reviews (Reviews of rating 2 and below):
 ## Machine Learning Models:
 
 ### Goal: 
-Leverage review data to build machine learning models capable of sentiment classification, potentially applicable to similar datasets. Used the "naive_bayes" _.
+Leverage review data to build machine learning models capable of sentiment classification, potentially applicable to similar datasets. Used the "Naive Bayes" classifier, a machine learning model used for natural language processing tasks, including sentiment analysis.
 
 ### Preprocessing Steps: 
 (I) Converting text to lowercase, removing punctuation, numbers, and whitespace
