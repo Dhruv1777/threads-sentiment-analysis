@@ -1,18 +1,30 @@
-## (2) 'Threads' Sentiment Analysis
+# "Threads" Sentiment Analysis
 
-This is a sentiment analysis of a set of over 32k reviews on the 'Threads' app across both the App and Google Play Store.
+## Project Overview
+This analysis dives into over 32,000 reviews of the "Threads" app from both the App Store and Google Play Store, aiming to uncover user sentiments and insights through sentiment analysis.
 
-### Broad Insights 
+## Analysis Approach:
 
-First off, I wanted to check the distribution of ratings (looking at this platform-wise allows an extra degree of insight)
+(I) Exploratory analysis - platform-wise distribution of ratings across these reviews.
+
+(ii) Sentiment scores - Utilized predefined lists from R packages to assign sentiment scores to reviews based on positive or negative word associations.
+
+(iii) Keyword Analysis
+
+(iv) Machine Learning Models - Leverage review data to build machine learning models capable of sentiment classification, potentially applicable to similar datasets.
+
+
+## Exploratory analysis:
+
+### Platform-Wise Distribution of Ratings:
+
+Initial observations indicate polarizing opinions, with ratings of '1' and '5' being the most common.
+A notable disparity exists between the volume of reviews from Google Play Store compared to the App Store, which is considered a limitation of this analysis.
 
 ![Platform Wise Distribution of Rating](./images/Platform-Wise_Distribution_of_Ratings-1.png)
 
-The reviews do seem to be quite polarizing with '1' and '5' being the most frequent.
 
-We have significantly more Google Play Store reviews than App Store reviews which could impact the overall analysis, so we will consider this one of our limitations going forward.
-
-### Sentiment Scores
+## Sentiment Scores
 
 A great way to get an idea of how users feel about 'Threads' in their reviews is deriving a 'sentiment score' for them. The sentiment scores here come from predefined lists of words (as part of packages in R) that are labeled as either positive or negative. 
 
