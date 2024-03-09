@@ -46,22 +46,23 @@ By normalizing sentiment scores against the total number of reviews per source, 
 
 ## Key Word Analysis
 
-Keyword analysis allows us to expand our analysis beyond sentiment scores and numeric ratings. I have pulled up the most commonly used words appearing in all of the reviews - both positive and negative. of course, before this, I have tried my best to remove any 'stop words' (common words such as "and", "the", etc., that do not carry significant meaning) through both in-built algorithms in R and a list I created myself manually after viewing the most commonly used words. 
+Method: Utilized R's built-in algorithms and a manually curated list to exclude common "stop words" and app-specific terms like "twitter," "instagram," etc., to prevent skewed results due to lack of context.
+Findings: Words common to both positive and negative reviews include major social platforms, suggesting their use in comparisons.
 
-Some 'stop words' unique to this analysis include:  "twitter","instagram","facebook","zuckerberg". I have chosen to exclude these as they are widely used and common to both positive and negative reviews of the app, so without more context they could impact the results of this analysis (this problem of context will also be tackeled during the building of my ML models)
 
-##### Key Word Analysis for Positive Reviews (Reviews of rating 4 and above)
+
+Key Word Analysis for Positive Reviews (Reviews of rating 4 and above):
+
+![Negative_Reviews_Word_Cloud-1.png](./images/Negative_Reviews_Word_Cloud-1.png)
+
+
+Key Word Analysis for Negative Reviews (Reviews of rating 2 and below):
 
 ![Negative_Reviews_Word_Cloud-1.png](./images/Negative_Reviews_Word_Cloud-1.png)
 
 
-##### Key Word Analysis for Negative Reviews (Reviews of rating 2 and below)
 
-![Negative_Reviews_Word_Cloud-1.png](./images/Negative_Reviews_Word_Cloud-1.png)
-
-Interestingly, we see words like "instagram", "twitter", etc that are common to both positive and negative reviews. These words are likely used to draw positive and negative comparisons respectively. 
-
-### Predictive Models and Beyond
+## Machine Learning Models:
 
 We can use this data to create machine learning models for sentiment classification that can potentially be used to predict values on other such datasets of app reviews. 
 
