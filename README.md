@@ -35,7 +35,7 @@ The variation suggests operating system-based differences in user perceptions, d
 ![Absolute_Sentiment_Scores_by_Source.png](./images/Absolute_Sentiment_Scores_by_Source.png)
 
 
-Average Sentiment Scores
+### Average Sentiment Scores
 By normalizing sentiment scores against the total number of reviews per source, an average sentiment score offers a clearer view of overall user feelings towards "Threads".
 
 
