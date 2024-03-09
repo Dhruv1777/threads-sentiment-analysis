@@ -46,9 +46,10 @@ By normalizing sentiment scores against the total number of reviews per source, 
 
 ## Key Word Analysis
 
-Method: Utilized R's built-in algorithms and a manually curated list to exclude common "stop words" and app-specific terms like "twitter," "instagram," etc., to prevent skewed results due to lack of context.
-Findings: Words common to both positive and negative reviews include major social platforms, suggesting their use in comparisons.
+### Method: Utilized R's built-in algorithms and a manually curated list to exclude common "stop words" and app-specific terms like "twitter," "instagram," etc., to prevent skewed results due to lack of context.
 
+
+### Findings: Words common to both positive and negative reviews include major social platforms, suggesting their use in comparisons.
 
 
 Key Word Analysis for Positive Reviews (Reviews of rating 4 and above):
