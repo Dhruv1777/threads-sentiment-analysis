@@ -1,7 +1,9 @@
 # "Threads" Sentiment Analysis
 
 ## Project Overview
-This analysis dives into over 32,000 reviews of the "Threads" app from both the App Store and Google Play Store, aiming to uncover user sentiments and insights through sentiment analysis. (Add more about ML).
+This analysis dives into over 32,000 reviews of the "Threads" app from both the App Store and Google Play Store, aiming to uncover user sentiments and insights through sentiment analysis.
+
+This also involves the creation of multiple machine-learning models which seek to classify user sentiments and potentially be used for similar review datasets.
 
 ## Analysis Approach:
 
