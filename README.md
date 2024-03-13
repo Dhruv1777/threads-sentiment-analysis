@@ -159,7 +159,13 @@ While only slightly better than our previous model (at 66.84%), this one gives u
 
 ## Conclusion:
 
-(insert)
+Through this analysis I have been able to:
+(I) Understand the distribution of ratings across the review platforms
+(ii) Rank the reviews themselves via sentiment scores and examine this correlation to ratings
+(iii) Identify the most recurring (and thus in a sense most important) terms across reviews
+(iv) Build ML models that classify sentiments and can be used on review datasets with fairly good indicators of performance.
+
+Improvements can be made to models via the expansion of the dataset to include more reviews, the use of other ML classifiers, and the use of more computationally intensive n-grams. I will continue to experiment with similar cases to improve what I have here. 
 
 
 
