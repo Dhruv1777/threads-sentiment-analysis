@@ -1,5 +1,7 @@
 # "Threads" Sentiment Analysis
 
+All code is available in R file titled "App_Reviews_2024" in this repository
+
 ## Project Overview
 This analysis dives into over 32,000 reviews of the "Threads" app from both the App Store and Google Play Store, aiming to uncover user sentiments and insights through sentiment analysis.
 
