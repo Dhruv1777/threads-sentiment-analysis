@@ -7,7 +7,7 @@ This analysis dives into over 32,000 reviews of the "Threads" app from both the 
 
 This also involves the creation of multiple machine-learning models which seek to classify user sentiments and potentially be used for similar review datasets.
 
-Dataset used under CC BY-ND 4.0 license from [https://www.kaggle.com/datasets/saloni1712/chatgpt-app-reviews]
+Dataset used under CC BY-ND 4.0 license from [https://www.kaggle.com/datasets/saloni1712/threads-an-instagram-app-reviews]
 
 ## Analysis Approach:
 
@@ -171,6 +171,15 @@ Through this analysis I have been able to:
 
 Improvements can be made to models via the expansion of the dataset to include more reviews, the use of other ML classifiers, and the use of more computationally intensive n-grams. I will continue to experiment with similar cases to improve what I have here. 
 
+## Dataset Attribution:
+
+This project uses the "Threads" App Reviews dataset, available under the Creative Commons Attribution-NoDerivs 4.0 International (CC BY-ND 4.0) license. The dataset was obtained from Kaggle.
+
+Dataset Title: "Threads" App Reviews
+Source: Kaggle [https://www.kaggle.com/datasets/saloni1712/threads-an-instagram-app-reviews0
+License: CC BY-ND 4.0
+
+This project adheres to the license terms by providing appropriate credit to the dataset creator, and this analysis is conducted for non-commercial purposes. No derivative work of the dataset itself is created or distributed as part of this project.
 
 
 
