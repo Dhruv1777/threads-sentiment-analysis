@@ -7,6 +7,8 @@ This analysis dives into over 32,000 reviews of the "Threads" app from both the 
 
 This also involves the creation of multiple machine-learning models which seek to classify user sentiments and potentially be used for similar review datasets.
 
+Dataset used under CC BY-ND 4.0 license from [https://www.kaggle.com/datasets/saloni1712/chatgpt-app-reviews]
+
 ## Analysis Approach:
 
 (I) Exploratory analysis - platform-wise distribution of ratings across these reviews.
