@@ -441,7 +441,7 @@ data_negative_oversampled <- sample_n(data_negative, target_size_negative, repla
 # Combine back with the positive
 final_data_oversampled <- bind_rows(data_negative_oversampled, data_neutral_oversampled, data_positive)
 
-# Shuffle the rows to mix the data well
+# Shuffle the rows 
 set.seed(123) 
 final_data_oversampled <- final_data_oversampled[sample(nrow(final_data_oversampled)),]
 
@@ -469,9 +469,8 @@ confusionMatrix(predictions_v2, testData_v2$sentiment)
 
 
 # The overall accuracy is actually less now, perhaps manually dealing with the negative and neutral classes was not the best approach
-# I will now try the oversampling techniques of SMOTE for more nuanced class balancing
-############################################################################################################################################################################################################################################
 
+############################################################################################################################################################################################################################################
 
 
 # Attempt 3: simply classifying 'neutral' as 'negative':
@@ -541,7 +540,7 @@ testData$sentiment <- as.factor(testData$sentiment)
 # Evaluate the model
 confusionMatrix(predictions, testData$sentiment)
 ################################################################################################################################################################
-#Attempt 4 (not able to run): bigrams for 'negation'
+#Attempt 4: unable to run locally - bigrams for 'negation'
 # Machine learning model:
 # Adjusting sentiment to binary classification
 # Adjust the sentiment classification to binary
@@ -701,32 +700,32 @@ confusionMatrix(predictions, testData$sentiment)
 
 #Reference
 #Prediction negative neutral positive
-#negative      495     157      215
-#neutral       363     453      302
-#positive     1446     745     3243
+#negative      470     144      153
+#neutral       371     506      333
+#positive     1463     705     3274
 
 #Overall Statistics
 
-#Accuracy : 0.5649          
-#95% CI : (0.5535, 0.5762)
+#Accuracy : 0.5729          
+#95% CI : (0.5615, 0.5841)
 #No Information Rate : 0.5068          
 #P-Value [Acc > NIR] : < 2.2e-16       
 
-#Kappa : 0.2299          
+#Kappa : 0.2458          
 
 #Mcnemar's Test P-Value : < 2.2e-16       
 
 #Statistics by Class:
 
-#                    Class: negative Class: neutral Class: positive
-#Sensitivity                  0.21484        0.33432          0.8625
-#Specificity                  0.92727        0.89034          0.4012
-#Pos Pred Value               0.57093        0.40519          0.5968
-#Neg Pred Value               0.72390        0.85685          0.7395
-#Prevalence                   0.31055        0.18264          0.5068
-#Detection Rate               0.06672        0.06106          0.4371
-#Detection Prevalence         0.11686        0.15069          0.7324
-#Balanced Accuracy            0.57106        0.61233          0.6319
+#                     Class: negative Class: neutral Class: positive
+#Sensitivity                  0.20399         0.3734          0.8707
+#Specificity                  0.94194         0.8839          0.4075
+#Pos Pred Value               0.61278         0.4182          0.6016
+#Neg Pred Value               0.72429         0.8633          0.7542
+#Prevalence                   0.31055         0.1826          0.5068
+#Detection Rate               0.06335         0.0682          0.4413
+#Detection Prevalence         0.10338         0.1631          0.7335
+#Balanced Accuracy            0.57296         0.6287          0.6391
 
 #Results of 3rd attempt (removing neutral):
 
@@ -761,7 +760,7 @@ confusionMatrix(predictions, testData$sentiment)
 
 
 
-#results of 4th attempt:
+#results of 5th attempt:
 #Confusion Matrix and Statistics
 
 #Reference
