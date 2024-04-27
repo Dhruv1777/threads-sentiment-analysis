@@ -93,3 +93,11 @@ This slightly improved precision for negative sentiments but reduced sensitivity
 
 ## Conclusion:
 This project highlighted the complexities of sentiment analysis, especially the challenges of class imbalance and the nuances of language processing. The evolution of models demonstrated iterative improvements in accuracy and underscored the potential for further refinement, especially in handling negations more effectively.
+
+## Dataset Attribution:
+This project uses the "Threads" App Reviews dataset, available under the Creative Commons Attribution-NoDerivs 4.0 International (CC BY-ND 4.0) license. The dataset was obtained from Kaggle and can be found here: https://www.kaggle.com/datasets/saloni1712/threads-an-instagram-app-reviews
+
+Dataset Title: "Threads" App Reviews
+Source: Kaggle
+License: CC BY-ND 4.0
+We adhere to the license terms by providing appropriate credit to the dataset creator, and this analysis is conducted for non-commercial purposes. No derivative work of the dataset itself is created or distributed as part of this project.
